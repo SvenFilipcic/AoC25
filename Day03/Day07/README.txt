@@ -1,0 +1,3 @@
+Celotni input smo shranili v mreži oz vektor z line[vrstica][stolpec] nato smo poiskali začetek "S" v prvi vrstici. Nato smo vsak žarek premikali navpično navzdol dokler nismo naleteli na "^", ki 
+je splital žarek na dva dela kar naredimo z column+1 in column-1 v isti vrstici. Ta nato nadaljuje navzdol ter se pri naslednjem to ponovi. nato preverim veličino spremenljivke splits v katero 
+smo shranjevali vse spliterje.
