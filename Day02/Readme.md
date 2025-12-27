@@ -1,0 +1,1 @@
+Prvi in drugi del naloge sta bila relativno podobna, le da sem pri drugem delu moral razdeliti številko na še manjše dele ter ne samo na polovico. Druga logika je podobna oz identična kot pri prvem delu. En od lažjih dni. Za iskanje invalid stevilk sem uporabil bool Neveljaven() ter ga nato klical v mainu ter z tem rahlo polepsal kodo. Lahko bi tudi vse spisal v mainu.
