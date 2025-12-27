@@ -1,0 +1,1 @@
+Pri tej nalogi sem input razdelil na sirino ter visino ter shranil v vector struct. Lahko bi tudi delal z pair. Nato sem vrednosti zmnozil da sem dobil površino ter preverjal kdaj je kvadrat največji. Drugega dela nisem rešil saj je eksponentno bolj zakompliciran. Lahko bi uporabil LLM za drugi del ampak whats the point potem?
