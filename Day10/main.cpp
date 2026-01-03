@@ -8,11 +8,11 @@
 
 using namespace std;
 
-int pritiski(string vrstica) {
+int pritiski(string line) {
 
-    int start = vrstica.find('[') + 1;
-    int konec = vrstica.find(']');
-    string konfig_str = vrstica.substr(start, konec - start);
+    int start = line.find('[') + 1;
+    int konec = line.find(']');
+    string konfig_str = line.substr(start, konec - start);
     
     //vektor želenih stanj lučk
     vector<int> konfig;
@@ -30,10 +30,10 @@ int pritiski(string vrstica) {
     
     size_t oklepaj = 0;
     
-    while ((oklepaj = vrstica.find('(', oklepaj)) != string::npos) {
+    while ((oklepaj = line.find('(', oklepaj)) != string::npos) {
 
-        size_t zaklepaj = vrstica.find(')', oklepaj);
-        string gumbi = vrstica.substr(oklepaj + 1, zaklepaj - oklepaj - 1);
+        size_t zaklepaj = line.find(')', oklepaj);
+        string gumbi = line.substr(oklepaj + 1, zaklepaj - oklepaj - 1);
     
     
         vector<int> trenutni_gumb;
@@ -99,13 +99,13 @@ int pritiski(string vrstica) {
 }
 
 int main() {
-    ifstream datoteka("input.txt");
+    ifstream file("input.txt");
 
-    string vrstica;
+    string line;
     int skupno = 0;
 
-    while (getline(datoteka, vrstica)){
-        skupno += pritiski(vrstica);
+    while (getline(file, line)){
+        skupno += pritiski(line);
     }
 
     cout << skupno << endl;
