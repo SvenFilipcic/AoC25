@@ -1,0 +1,2 @@
+Rešil sem samo prvi del naloge saj je zelo kompleksna... Rešil sem tako da sem najprej napisal funkcijo pritiski ki prebere linijo jo razdeli na potrebne dele ter shrani v vekotrje [...] ter del gumbov (...).
+Nato z BFS preverimo vse možne kombinacije ter ko najdemo tisto ki je enaka konfiguraciji lučk znotraj [...] to shranimo. nato v main funckiji beremo datoteko ter za vsako linijo kličemo pritisk()
